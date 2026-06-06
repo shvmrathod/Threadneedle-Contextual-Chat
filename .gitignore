@@ -1,0 +1,47 @@
+# ── Environment & secrets ──────────────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ── Python / Backend ───────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ── Node / Frontend ────────────────────────────────────────────────
+node_modules/
+dist/
+.vite/
+*.local
+
+# ── Logs & coverage ────────────────────────────────────────────────
+*.log
+*.log.*
+coverage/
+.coverage
+htmlcov/
+
+# ── Vite local overrides ────────────────────────────────────────────
+.env.local
+frontend/.env.local
+
+# ── OS junk ────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Editor ─────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+PRE_RELEASE_AUDIT.md
